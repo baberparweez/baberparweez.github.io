@@ -32,15 +32,19 @@
         }
 
         body {
-            background: url(https://images.unsplash.com/photo-1443926818681-717d074a57af?auto=format&fit=crop&w=1000&q=80) center no-repeat;
-            background-size: cover;
+            height: 100%;
+            overflow: auto;
         }
 
         .outer-div {
-            background: rgba(0, 0, 0, 0.2);
-            position: relative;
-            height: 100%;
-            height: 100vh;
+            background: url(https://images.unsplash.com/photo-1443926818681-717d074a57af?auto=format&fit=crop&w=1000&q=80) center no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow: auto;
         }
 
         /* @keyframes parallax {
@@ -66,7 +70,7 @@
 
         /* form styles */
         #form1 {
-        	margin: 50px auto;
+            margin: 50px auto;
             max-width: 700px;
             position: absolute;
             text-align: center;
