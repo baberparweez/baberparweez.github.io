@@ -30,8 +30,20 @@
             margin: 0;
             padding: 0;
         }
-        
-        @keyframes parallax {
+
+        body {
+            background: url(https://images.unsplash.com/photo-1443926818681-717d074a57af?auto=format&fit=crop&w=1000&q=80) center no-repeat;
+            background-size: cover;
+        }
+
+        .outer-div {
+            background: rgba(0, 0, 0, 0.2);
+            position: relative;
+            height: 100%;
+            height: 100vh;
+        }
+
+        /* @keyframes parallax {
             100% {
                 background-position: center 2910px;
             }
@@ -50,19 +62,18 @@
             height: 100%;
             height: 100vh;
             z-index: 1;
-        }
+        } */
 
         /* form styles */
         #form1 {
-            height: 100%;
         	margin: 50px auto;
             max-width: 700px;
             position: absolute;
-            left: 50%;
-            top: 50%;
-            transform:translate(-50%, -50%);
             text-align: center;
-            width: 80%; /* You can specify ANY width values here */
+            top: 25%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            width: 80%;
         }
 
         #form1 fieldset {
@@ -88,6 +99,7 @@
             font-size: 13px;
             margin-bottom: 16px;
             padding: 10px;
+
         }
 
         /* radio buttons */
@@ -114,19 +126,20 @@
         }
 
         .option input[type="radio"] + label span {
+            display: inline-block;
+            width: 75px;
+            height: 75px;
+            margin: -1px 4px 0 0;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid #FFFFFF;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
             background-repeat: no-repeat;
             background-position: center;
-            border: 2px solid #FFFFFF;
-            border-radius: 50%;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
-            cursor: pointer;
-            display: inline-block;
-            height: 75px;
-            line-height: 70px;
-            margin: -1px 4px 25px 0;
             text-align: center;
-            vertical-align: middle;
-            width: 75px;
+            line-height: 70px;
+            margin-bottom: 25px;
         }
 
         .option input[type="radio"] + label span img {
@@ -170,7 +183,7 @@
             font-size: 16px;
             font-weight: bold;
             margin-bottom: 10px;
-/*            text-transform: uppercase;*/
+            /* text-transform: uppercase; */
         }
 
     </style>
@@ -179,7 +192,7 @@
 
 <body class="center">
 
-    <div class="wrapper">
+    <div class="outer-div">
         <!-- multistep form -->
         <form id="form1" action="//groundctrl-api-dev.herokuapp.com/v1/register" method="post">
             <h1 style="color: #fff;">greetings<br/>welcome to my web <i>space</i>.</h1>
@@ -253,14 +266,14 @@
                                 <h3>Option 3</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                             </label>
-                        </div> 
+                        </div>
                     </div>
                 </div>
 <!--                <input type="button" name="previous" class="previous action-button" value="Previous" />-->
                 <input type="button" name="next" class="next action-button" value="Submit" />
 <!--                <input type="submit" name="submit" class="submit action-button" value="Submit" />-->
             </fieldset>
-            
+
             <fieldset>
                 <h3 class="form-title">that's it for now.</h3>
                 <br/>
