@@ -212,7 +212,9 @@ var map;
             ];
 
             var mapOptions = {
-                zoom: 4,
+                zoom: 3,
+                minZoom: 3,
+                maxZoom: 15,
                 center: new google.maps.LatLng(51.5074,0.1278),
         		// scrollwheel: false,
         		mapTypeControlOptions: {
@@ -280,6 +282,7 @@ function add_directory_marker(obj, index) {
 	);
 
 	google.maps.event.addListener(directory_marker_instances[index], "click", function(e) {
+        map.panTo(new google.maps.LatLng(obj.latitude,obj.longitude));
 		show_marker_info(
 			map,
 			directory_marker_instances[index],
@@ -305,7 +308,12 @@ function show_marker_info(map, marker_instance, html, lat, lng) {
 		position: { lat: lat * 1, lng: lng * 1}/*,
 		pixelOffset: offset*/
 	});
-	info_window_instance.open(map, marker_instance);
+
+    for (var i = 0; i < info_window_instance.length; i++) {
+      info_window_instance[i].close();
+    }
+    info_window_instance.open(map, marker_instance);
+    // info_window_instance[].open(map, marker_instance);
 }
 
 function directory_init_location() {
