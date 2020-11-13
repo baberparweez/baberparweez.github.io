@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0f8b5404.chunk.css",
-    "main.js": "/static/js/main.3760e40d.chunk.js",
-    "main.js.map": "/static/js/main.3760e40d.chunk.js.map",
+    "main.js": "/static/js/main.eb717160.chunk.js",
+    "main.js.map": "/static/js/main.eb717160.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a2fa906.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a2fa906.js.map",
     "static/js/2.a793d1f3.chunk.js": "/static/js/2.a793d1f3.chunk.js",
@@ -10,16 +10,16 @@
     "index.html": "/index.html",
     "static/css/main.0f8b5404.chunk.css.map": "/static/css/main.0f8b5404.chunk.css.map",
     "static/js/2.a793d1f3.chunk.js.LICENSE.txt": "/static/js/2.a793d1f3.chunk.js.LICENSE.txt",
-    "static/media/10degrees.de3e2afa.png": "/static/media/10degrees.de3e2afa.png",
+    "static/media/10degrees.ad795f33.png": "/static/media/10degrees.ad795f33.png",
     "static/media/Styles.scss": "/static/media/projects.70247098.jpeg",
-    "static/media/synairgen.eedcedc8.png": "/static/media/synairgen.eedcedc8.png",
+    "static/media/synairgen.b036270c.png": "/static/media/synairgen.b036270c.png",
     "static/media/thumbnail.d4a8affd.jpg": "/static/media/thumbnail.d4a8affd.jpg",
-    "static/media/universum.3c53a8a1.png": "/static/media/universum.3c53a8a1.png"
+    "static/media/universum.8e5b8526.png": "/static/media/universum.8e5b8526.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4a2fa906.js",
     "static/js/2.a793d1f3.chunk.js",
     "static/css/main.0f8b5404.chunk.css",
-    "static/js/main.3760e40d.chunk.js"
+    "static/js/main.eb717160.chunk.js"
   ]
 }
