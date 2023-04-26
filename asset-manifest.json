@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c4c407c1.chunk.css",
-    "main.js": "/static/js/main.8776a835.chunk.js",
-    "main.js.map": "/static/js/main.8776a835.chunk.js.map",
+    "main.js": "/static/js/main.26536967.chunk.js",
+    "main.js.map": "/static/js/main.26536967.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41a2333f.js",
     "runtime-main.js.map": "/static/js/runtime-main.41a2333f.js.map",
     "static/js/2.2ec80dca.chunk.js": "/static/js/2.2ec80dca.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.2ec80dca.chunk.js.LICENSE.txt": "/static/js/2.2ec80dca.chunk.js.LICENSE.txt",
     "static/media/Styles.scss": "/static/media/header.8ee042a9.jpeg",
     "static/media/project-allcurves.e24f6314.jpg": "/static/media/project-allcurves.e24f6314.jpg",
-    "static/media/project-elder.329cd05f.jpg": "/static/media/project-elder.329cd05f.jpg",
+    "static/media/project-elder.0c6ec962.jpg": "/static/media/project-elder.0c6ec962.jpg",
     "static/media/project-madisons.ea3667cc.jpg": "/static/media/project-madisons.ea3667cc.jpg",
     "static/media/project-petplanquiz.b252b70a.jpg": "/static/media/project-petplanquiz.b252b70a.jpg",
     "static/media/project-relish.a7875800.jpg": "/static/media/project-relish.a7875800.jpg",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.41a2333f.js",
     "static/js/2.2ec80dca.chunk.js",
     "static/css/main.c4c407c1.chunk.css",
-    "static/js/main.8776a835.chunk.js"
+    "static/js/main.26536967.chunk.js"
   ]
 }
