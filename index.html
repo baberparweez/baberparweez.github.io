@@ -1,1 +1,504 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Baber Parweez - Professional Web Developer"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>B.Parweez</title><link href="/static/css/main.c4c407c1.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],p=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(a&&a(r);s.length;)s.shift()();return u.push.apply(u,p||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this["webpackJsonpmy-portfolio"]=this["webpackJsonpmy-portfolio"]||[],i=f.push.bind(f);f.push=r,f=f.slice();for(var p=0;p<f.length;p++)r(f[p]);var a=i;t()}([])</script><script src="/static/js/2.2ec80dca.chunk.js"></script><script src="/static/js/main.26536967.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Lead Full-Stack Developer & Solutions Architect portfolio showcasing expertise in WordPress, PHP, JavaScript, React, Cloud Computing, and AI integrations."
+		/>
+		<title>Baber Parweez - Lead Full-Stack Developer & Solutions Architect</title>
+		<meta
+			property="og:title"
+			content="Baber Parweez - Lead Full-Stack Developer & Solutions Architect"
+		/>
+		<meta
+			property="og:description"
+			content="Portfolio of Baber Parweez, a Lead Full-Stack Developer & Solutions Architect specializing in AI integrations."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://baberparweez.github.io/portfolio" />
+		<meta property="og:image" content="https://baberparweez.github.io/portfolio/hero-image.jpg" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Baber Parweez",
+				"jobTitle": "Lead Full-Stack Developer & Solutions Architect",
+				"description": "Full-stack developer specializing in WordPress, PHP, JavaScript, React, Cloud Computing, and AI Integrations.",
+				"url": "https://baberparweez.github.io/portfolio",
+				"sameAs": ["https://github.com/baberparweez", "https://linkedin.com/in/baberparweez"]
+			}
+		</script>
+		<style>
+			/* Import Font */
+			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap");
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			html {
+				font-family: "Inter", sans-serif;
+				scroll-behavior: smooth;
+			}
+			body {
+				color: #eee;
+				background-color: #121212;
+			}
+			p {
+				line-height: 1.4;
+			}
+			header {
+				background: rgba(18, 18, 18, 0.8);
+				backdrop-filter: blur(10px);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding: 1rem 2rem;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 100;
+			}
+			nav ul {
+				display: flex;
+				gap: 1.5rem;
+				list-style: none;
+			}
+			nav ul li a {
+				color: #eee;
+				text-decoration: none;
+				font-weight: 600;
+			}
+			.hero {
+				background-color: #000;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin: 51.5px calc(50% - 50vw) 0;
+				overflow: hidden;
+				padding: 0 1rem;
+				position: relative;
+				min-height: 350px;
+				max-height: 350px;
+				max-width: none;
+				text-align: center;
+			}
+			.hero::before {
+				content: "";
+				background: url("images/photo-1464983953574-0892a716854b.avif") center/cover no-repeat;
+				inset: 0;
+				filter: brightness(0.4) saturate(5.2);
+				position: absolute;
+				z-index: 0;
+			}
+			.hero > div {
+				position: relative;
+				z-index: 1;
+			}
+			.hero h1 {
+				font-size: 2rem;
+				color: #fff;
+				font-weight: 600;
+			}
+			.hero p {
+				color: #fff;
+				font-size: 1.2rem;
+				margin-top: 1rem;
+				font-weight: 300;
+			}
+			.hero p span {
+				opacity: 0;
+			}
+			section {
+				padding: 6rem 2rem;
+				margin: 0 auto;
+				max-width: 1200px;
+			}
+			.section-title {
+				display: inline-block;
+				border-bottom: 2px solid #444;
+				font-size: 2rem;
+				margin-bottom: 1rem;
+			}
+			.grid {
+				display: grid;
+				gap: 2rem;
+			}
+			#skills h4 {
+				padding-bottom: 1rem;
+			}
+			.skills-list {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 1rem;
+				padding-bottom: 2rem;
+			}
+			.skills-list span {
+				background: #1f1f1f;
+				border-radius: 0.5rem;
+				font-size: 0.9rem;
+				padding: 0.5rem 1rem;
+			}
+			.projects {
+				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+			}
+			.project-card {
+				background: #1e1e1e;
+				border-radius: 0.5rem;
+				overflow: hidden;
+				transition: transform 0.3s;
+			}
+			.project-card:hover {
+				transform: translateY(-5px);
+			}
+			.project-card img {
+				object-fit: cover;
+				height: 250px;
+				width: 100%;
+			}
+			.project-card h3 {
+				padding-bottom: 8px;
+			}
+			.project-card div {
+				padding: 1rem;
+			}
+			#contact a {
+				color: #e91e63;
+				text-decoration: none;
+				font-weight: 600;
+			}
+			.contact-form {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+			}
+			.contact-form input,
+			.contact-form textarea {
+				background: #1f1f1f;
+				border: none;
+				border-radius: 0.3rem;
+				color: #eee;
+				padding: 0.8rem;
+			}
+			.contact-form textarea {
+				min-height: 120px;
+				max-height: 120px;
+				resize: none;
+			}
+			.contact-form button {
+				background: #e91e63;
+				border: none;
+				border-radius: 0.3rem;
+				color: #fff;
+				cursor: pointer;
+				font-weight: 600;
+				padding: 0.8rem 1.2rem;
+			}
+			footer {
+				background: #000;
+				padding: 2rem;
+				text-align: center;
+			}
+			@media only screen and (min-width: 768px) {
+				.hero {
+					align-items: normal;
+					padding: 150px 1rem 0;
+					min-height: 450px;
+					max-height: 450px;
+				}
+				.hero::before {
+					filter: brightness(0.6) saturate(5.2);
+				}
+				.hero h1 {
+					font-size: 3rem;
+				}
+				.hero p {
+					font-size: 1.2rem;
+					font-weight: 400;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<span></span>
+			<!-- <a href="#home" class="logo" aria-label="Baber Parweez Home">
+				<img src="logo.svg" alt="Baber Parweez Logo" height="40" />
+			</a> -->
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero" id="home">
+				<div>
+					<h1>Hello, I'm Baber Parweez</h1>
+					<p>
+						~Lead Full-Stack Developer & Solutions Architect|Technical Lead|Helping Provide AI &
+						Cloud-Based Digital Solutions~
+					</p>
+				</div>
+			</section>
+
+			<section id="about">
+				<h2 class="section-title">About Me</h2>
+				<p>
+					I'm a passionate and creative Lead Full-Stack Developer & Solutions Architect with over a
+					decade of hands-on experience. I specialize in building robust, scalable web applications
+					and integrating cutting-edge technologies like headless CMS and generative AI. My focus is
+					on delivering clean, high-performance solutions tailored to each client's unique needs. I
+					thrive on solving complex challenges, collaborating with teams, and turning ideas into
+					polished digital products—always with a commitment to quality, reliability, and client
+					success.
+				</p>
+			</section>
+
+			<section id="skills">
+				<h2 class="section-title">Skills & Technologies</h2>
+				<h4>AI & Analytics</h4>
+				<div class="skills-list">
+					<span>AI Integrations</span>
+					<span>A/B Testing</span>
+					<span>ChatGPT</span>
+					<span>Claude</span>
+					<span>Gemini</span>
+					<span>GA4 & GTM</span>
+					<span>New Relic</span>
+					<span>Semrush</span>
+				</div>
+
+				<h4>Languages & Scripting</h4>
+				<div class="skills-list">
+					<span>HTML</span>
+					<span>CSS</span>
+					<span>JavaScript</span>
+					<span>TypeScript</span>
+					<span>PHP</span>
+					<span>Python</span>
+					<span>SCSS</span>
+				</div>
+
+				<h4>Frameworks & Libraries</h4>
+				<div class="skills-list">
+					<span>React</span>
+					<span>Next.js</span>
+					<span>AstroJS</span>
+					<span>Node.js</span>
+					<span>Vite</span>
+					<span>jQuery</span>
+					<span>Laravel</span>
+					<span>Bootstrap</span>
+					<span>Tailwind</span>
+				</div>
+
+				<h4>CMS & Platforms</h4>
+				<div class="skills-list">
+					<span>Contentful</span>
+					<span>Drupal</span>
+					<span>HubSpot</span>
+					<span>WordPress</span>
+					<span>Webflow</span>
+				</div>
+
+				<h4>Cloud & DevOps</h4>
+				<div class="skills-list">
+					<span>AWS</span>
+					<span>Azure</span>
+					<span>Google Cloud Platform</span>
+					<span>CI/CD</span>
+					<span>Docker & Kubernetes</span>
+					<span>Serverless</span>
+					<span>SAM</span>
+					<span>Terraform</span>
+				</div>
+
+				<h4>Data & APIs</h4>
+				<div class="skills-list">
+					<span>MySQL</span>
+					<span>GraphQL</span>
+					<span>REST API</span>
+				</div>
+
+				<h4>Design & Collaboration</h4>
+				<div class="skills-list">
+					<span>Adobe Suite</span>
+					<span>Figma</span>
+					<span>Git</span>
+					<span>BitBucket</span>
+					<span>GitHub</span>
+					<span>Workflows</span>
+				</div>
+
+				<h4>Marketing Automation & Testing</h4>
+				<div class="skills-list">
+					<span>HubSpot</span>
+					<span>Eloqua</span>
+					<span>Pardot</span>
+					<span>ConvertFlow</span>
+				</div>
+			</section>
+
+			<section id="projects">
+				<h2 class="section-title">Projects</h2>
+				<div class="grid projects">
+					<div class="project-card">
+						<img src="images/project-elder.jpg" alt="Elder" loading="lazy" />
+						<div>
+							<h3>Elder</h3>
+							<p>
+								WordPress site for a UK-based startup providing dedicated carers for the elderly.
+							</p>
+						</div>
+					</div>
+					<div class="project-card">
+						<img src="images/project-allcurves.jpg" alt="All Curves" loading="lazy" />
+						<div>
+							<h3>All Curves</h3>
+							<p>
+								E-Commerce WordPress site developed for a Brazilian online fashion retailer
+								specializing in plus-size apparel.
+							</p>
+						</div>
+					</div>
+					<div class="project-card">
+						<img src="images/project-petplanquiz.jpg" alt="PetPlan Pet IQ Quiz" loading="lazy" />
+						<div>
+							<h3>PetPlan Pet IQ Quiz</h3>
+							<p>
+								Interactive React application for a leading pet insurance provider, designed to
+								engage users with a fun quiz that tests the intelligence of their cats and dogs.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact">
+				<h2 class="section-title">Get In Touch</h2>
+				<br />
+				<a href="mailto:baberparweez@gmail.com">baberparweez@gmail.com</a>
+				<!-- <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+					<input type="text" name="name" placeholder="Your Name" required />
+					<input type="email" name="email" placeholder="Your Email" required />
+					<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+					<button type="submit">Send Message</button>
+				</form> -->
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; <span id="year"></span> Baber Parweez</p>
+		</footer>
+
+		<script>
+			// Set dynamic year in footer
+			document.getElementById("year").textContent = new Date().getFullYear();
+
+			// Navigation Smooth Scroll with existence check and event delegation
+			document.querySelector("nav ul").addEventListener("click", (e) => {
+				if (e.target.tagName === "A") {
+					const targetId = e.target.getAttribute("href");
+					const target = document.querySelector(targetId);
+					if (target) {
+						e.preventDefault();
+						target.scrollIntoView({ behavior: "smooth" });
+					}
+				}
+			});
+
+			// Contact Form Submission (shows alert, but also submits to Formspree)
+			// document.querySelector(".contact-form").addEventListener("submit", (e) => {
+			// 	alert("Message sent!");
+			// });
+
+			// Spintax Functionality (only process .hero p, not whole body)
+			(function () {
+				"use strict";
+
+				function randomChoice(arr) {
+					return arr[Math.floor(Math.random() * arr.length)];
+				}
+
+				// Allow spaces in spintax options
+				function replaceRandom(text) {
+					return text.replace(/{([^~{}]+)}/g, function (_, p1) {
+						return randomChoice(p1.split("|"));
+					});
+				}
+
+				function replaceSpintax(text) {
+					return text.replace(/~([^~{}]+)~/g, function (_, p1) {
+						var opts = p1.split("|");
+						return (
+							'<span class="spintax" data-options="' +
+							opts.join("|") +
+							'" aria-live="polite">' +
+							opts[0] +
+							"<noscript>" +
+							opts.join("|") +
+							"</noscript>" +
+							"</span>"
+						);
+					});
+				}
+
+				function initSpintaxFade() {
+					const heroP = document.querySelector(".hero p");
+					if (!heroP) return;
+					// Only process the hero <p>
+					heroP.innerHTML = replaceRandom(heroP.innerHTML);
+					heroP.innerHTML = replaceSpintax(heroP.innerHTML);
+
+					var fadeSpeed = 350; // ms
+					var holdTime = 2500; // ms
+
+					heroP.querySelectorAll(".spintax").forEach(function (el) {
+						var opts = el.getAttribute("data-options").split("|");
+						var idx = 0;
+
+						el.style.opacity = 0;
+						el.style.transition = "opacity " + fadeSpeed + "ms";
+						el.setAttribute("aria-live", "polite");
+
+						setTimeout(function () {
+							el.style.opacity = 1;
+						}, 10);
+
+						setInterval(function () {
+							el.style.opacity = 0;
+							setTimeout(function () {
+								idx = (idx + 1) % opts.length;
+								el.textContent = opts[idx];
+								// Only add <noscript> if not present
+								if (!el.querySelector("noscript")) {
+									var ns = document.createElement("noscript");
+									ns.textContent = opts.join("|");
+									el.appendChild(ns);
+								}
+								el.style.opacity = 1;
+							}, fadeSpeed);
+						}, holdTime);
+					});
+				}
+
+				document.addEventListener("DOMContentLoaded", initSpintaxFade);
+			})();
+		</script>
+	</body>
+</html>
