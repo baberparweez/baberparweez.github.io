@@ -178,13 +178,13 @@ input[type="radio"] {
 	display: none;
 }
 .project-card span {
+	background: #000;
+	border-radius: 5px;
+	font-size: 0.75rem;
+	padding: 3px 5px;
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background: black;
-	border-radius: 5px;
-	padding: 3px 5px;
-	font-size: 0.75rem;
 }
 .project-card:hover {
 	transform: translateY(-5px);
