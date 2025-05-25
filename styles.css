@@ -1,5 +1,17 @@
-/* Import Font */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap");
+@font-face {
+	font-family: "Inter";
+	src: url("fonts/Inter.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Pacifico";
+	src: url("fonts/Pacifico.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
 * {
 	box-sizing: border-box;
 	margin: 0;
