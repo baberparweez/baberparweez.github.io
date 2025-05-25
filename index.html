@@ -18,8 +18,8 @@
 			content="Portfolio of Baber Parweez, a Lead Full-Stack Developer & Solutions Architect specialising in WordPress, PHP, JavaScript, React, Cloud Computing, and AI Integrations."
 		/>
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://baberparweez.github.io/portfolio" />
-		<meta property="og:image" content="https://baberparweez.github.io/portfolio/hero-image.jpg" />
+		<meta property="og:url" content="https://baberparweez.github.io" />
+		<meta property="og:image" content="https://baberparweez.github.io/images/hero-image.avif" />
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -72,7 +72,7 @@
 			</section>
 
 			<section id="about">
-				<img src="images/thumbnail.jpg" alt="Baber Parweez" />
+				<img src="images/thumbnail.avif" alt="Baber Parweez" />
 				<h2 class="section-title">About Me</h2>
 				<p>
 					I'm a passionate and creative Lead Full-Stack Developer & Solutions Architect with over a
@@ -193,6 +193,14 @@
 					<label class="filter-selector">
 						<input
 							name="filter-selector-radio"
+							data-category="headless"
+							type="radio"
+							value="headless"
+						/>Headless</label
+					>
+					<label class="filter-selector">
+						<input
+							name="filter-selector-radio"
 							data-category="react"
 							type="radio"
 							value="react"
@@ -209,74 +217,78 @@
 				</div>
 				<div class="grid projects">
 					<div class="project-card" data-category="ai">
-						<span>AI</span>
-						<img src="images/placeholder.jpg" alt="Contentful SEO Companion" loading="lazy" />
+						<img src="images/placeholder.avif" alt="Contentful SEO Companion" loading="lazy" />
 						<div>
 							<h3>Gemini SEO Companion</h3>
 							<p>
-								AI-powered SEO companion app for Contentful CMS, leveraging Gemini API to deliver
-								real-time content optimisation feedback and suggestions. Integrates with Semrush API
-								for advanced keyword analysis and competitor insights.
+								Built an AI-powered SEO companion app for Contentful CMS using the Gemini API,
+								providing real-time SEO scoring, feedback, and suggestions. Integrated Semrush for
+								advanced keyword analysis and competitor insights.
+							</p>
+						</div>
+					</div>
+					<div class="project-card" data-category="headless, react">
+						<img src="images/project-g-p.avif" alt="G-P" loading="lazy" />
+						<div>
+							<h3>Globalization Partners</h3>
+							<p>
+								Helped build and implement a headless CMS architecture for Globalization Partners
+								using Contentful, AstroJS and Cloud services. Integrated multiple APIs, and set up
+								AWS serverless infrastructure to deliver a seamless, scalable user experience.
 							</p>
 						</div>
 					</div>
 					<div class="project-card" data-category="wordpress">
-						<span>WordPress</span>
-						<img src="images/project-elder.jpg" alt="Elder" loading="lazy" />
+						<img src="images/project-elder.avif" alt="Elder" loading="lazy" />
 						<div>
 							<h3>Elder</h3>
 							<p>
-								Website for a UK-based startup providing dedicated carers for the elderly. The site
-								was built using Elementor and a custom theme, with a focus on user experience and
-								accessibility.
+								Developed a custom WordPress theme for Elder, a leading UK-based financial services
+								provider. The site was build using Elementor and Astra, with custom integrations for
+								enhanced performance and user experience.
 							</p>
 						</div>
 					</div>
 					<div class="project-card" data-category="react">
-						<span>React</span>
-						<img src="images/project-petplanquiz.jpg" alt="PetPlan Pet IQ Quiz" loading="lazy" />
+						<img src="images/project-petplanquiz.avif" alt="PetPlan Pet IQ Quiz" loading="lazy" />
 						<div>
 							<h3>PetPlan Pet IQ Quiz</h3>
 							<p>
-								Interactive application for a leading pet insurance provider. Designed to engage
-								users with a fun quiz that tests the intelligence of their cats and dogs, providing
-								personalised results and tips based on their pet's answers.
+								Deployed a React-based quiz application for PetPlan, integrating with their existing
+								systems. The app provides users with fun questions that result in pet IQ rankings
+								based on their results.
 							</p>
 						</div>
 					</div>
 					<div class="project-card" data-category="wordpress">
-						<span>WordPress</span>
-						<img src="images/project-madisons.jpg" alt="Madisons Fitness" loading="lazy" />
+						<img src="images/project-madisons.avif" alt="Madisons Fitness" loading="lazy" />
 						<div>
 							<h3>Madisons Fitness</h3>
 							<p>
-								Website for a fitness company offering personal training and nutrition services. The
-								site was built using a Roots.io custom WordPress theme and ACF, with a focus on
-								user-friendly navigation and a modern design.
+								Initialised a WordPress site for Madisons Fitness, a leading fitness provider. The
+								site was built using a custom Roots.io theme with ACF blocks and blade templates.
 							</p>
 						</div>
 					</div>
 					<div class="project-card" data-category="wordpress">
-						<span>WordPress</span>
-						<img src="images/project-relish.jpg" alt="Relish Agency" loading="lazy" />
+						<img src="images/project-relish.avif" alt="Relish Agency" loading="lazy" />
 						<div>
 							<h3>Relish Agency</h3>
 							<p>
-								Website for a digital marketing agency. The site was built using a Roots.io custom
-								WordPress theme and ACF, with a focus on showcasing the agency's portfolio and
-								services.
+								Built a custom Roots.io WordPress theme for Relish Agency, a UK-based digital
+								marketing agency. The site was designed to be modern, user-friendly and optimised
+								for seamless UX.
 							</p>
 						</div>
 					</div>
 					<div class="project-card" data-category="wordpress">
-						<span>WordPress</span>
-						<img src="images/project-allcurves.jpg" alt="All Curves" loading="lazy" />
+						<img src="images/project-allcurves.avif" alt="All Curves" loading="lazy" />
 						<div>
 							<h3>All Curves</h3>
 							<p>
-								E-Commerce website developed for a Brazilian online fashion retailer specialising in
-								plus-size apparel. The site features a custom theme and optimised performance for a
-								seamless shopping experience.
+								Designed and developed an e-commerce WordPress website for All Curves, an
+								independent Brazilian plus-size fashion retailer. The site features an Astra theme
+								with custom WooCommerce integration.
 							</p>
 						</div>
 					</div>

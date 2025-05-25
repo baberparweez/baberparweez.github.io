@@ -15,25 +15,26 @@ document.querySelector("nav ul").addEventListener("click", (e) => {
 
 // Filter Projects by Category
 const filterLabels = document.querySelectorAll("label.filter-selector input");
-const filterLabelAll = document.querySelectorAll('label.filter-selector input[value="all"]');
 const filterSelector = document.querySelectorAll("label.filter-selector");
 
-filterLabelAll.checked = true; // reset onload
+// Ensure "all" is checked on load
+const filterLabelAll = document.querySelector('label.filter-selector input[value="all"]');
+if (filterLabelAll) filterLabelAll.checked = true;
 
 filterLabels.forEach((filter) => {
-	filter.addEventListener("click", function (e) {
+	filter.addEventListener("click", function () {
 		const value = this.value;
-		const cat = this.getAttribute("data-category");
 		const blocks = document.querySelectorAll(".project-card");
 
 		blocks.forEach((block) => {
-			block.classList.add("hidden");
-			if (block.getAttribute("data-category") === cat) {
-				block.classList.remove("hidden");
-			}
+			const categories = (block.getAttribute("data-category") || "")
+				.split(",")
+				.map((c) => c.trim());
 
-			if (value === "all") {
+			if (value === "all" || categories.includes(value)) {
 				block.classList.remove("hidden");
+			} else {
+				block.classList.add("hidden");
 			}
 		});
 
