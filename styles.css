@@ -197,7 +197,7 @@ input[type="radio"] {
 .project-card h3 {
 	padding-bottom: 8px;
 }
-.project-card div {
+.project-card figcaption {
 	padding: 1rem;
 }
 .project-card p {
